@@ -1,0 +1,15 @@
+<meta charset="UTF-8">
+
+<!-- Prog que calcula valor de um produto a vista com 10% de desconto ou parcelado em 3x -->
+ <script>
+    let aVista;
+    let parcelado;
+
+    const preco = Number(prompt("Digite o valor do produto: "));    // lê os dados de entrada;
+
+    aVista = (preco / 100) * 90;                                    // calculo das opções de pagamento;
+    parcelado = preco / 3;
+
+    alert(`Preço: R$ ${preco.toFixed(2)}\nÀ vista: R$ ${aVista.toFixed(2)}\nOu 3x de: ${parcelado.toFixed(2)}`); // exibe as respostas na tela;
+    
+ </script>
