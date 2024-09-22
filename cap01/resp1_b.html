@@ -1,0 +1,10 @@
+<meta charset="UTF-8">
+
+<!-- Prog que calcula valor de uma conta, quantos clientes  vão paga-lá e valor por cliente; -->
+ <script>
+    const valorConta = Number(prompt("Valor da conta: "));   // lê os dados de entrada;
+    const qtdClientes = Number(prompt("Clientes a pagar: "));
+    const valorClientes = valorConta / qtdClientes;          // calculo da conta;
+
+    alert(`Valor da conta: R$ ${valorConta.toFixed(2)}\nNúmero de clientes: ${qtdClientes}\nValor por cliente: R$ ${valorClientes.toFixed(2)}`);
+ </script>
